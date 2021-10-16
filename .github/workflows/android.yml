@@ -24,4 +24,5 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: echo "hello world"
-       run:whoami 
+    - name: Testing 
+      run: whoami 
